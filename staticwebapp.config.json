@@ -1,0 +1,19 @@
+{
+    "auth": {
+        "identityProviders": {
+            "customOpenIdConnectProviders": {
+                "auth0": {
+                    "registration": {
+                        "clientIdSettingName": "AUTH0_ID",
+                        "clientCredential": {
+                            "clientSecretSettingName": "AUTH0_SECRET"
+                        },
+                        "openIdConnectConfiguration": {
+                            "wellKnownOpenIdConfiguration": "https://dingeundsachenwuenschen.eu.auth0.com/.well-known/openid-configuration"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
